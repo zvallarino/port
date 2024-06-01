@@ -19,7 +19,7 @@ export default function Intro() {
             <p className="text-8xl">name is Zach.</p>
           </div>
           <div>
-            <p className="text-xl">I'm a Full Stack Engineer based in</p>
+            <p className="text-xl">Im a Full Stack Engineer based in</p>
             <p className="text-xl">New York City.</p>
           </div>
         </div>

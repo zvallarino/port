@@ -32,12 +32,14 @@ export default function CurrentExperience() {
             />
           </div>
           <div className="flex w-1/2 bg-yellow-200 p-4 justify-center items-center">
-            <div>
-              <div className="mb-4 text-3xl font-bold">Population Council</div>
-              <div>Here is my current experience</div>
-              <button className="bg-button-bg border-2 border-button-border rounded-xl shadow-custom text-button-text cursor-pointer font-semibold text-lg py-2 px-4 hover:bg-button-hover active:shadow-custom-active active:transform active:translate-x-0.5 active:translate-y-0.5">
-                Our Mission
-              </button>
+  <div className="flex flex-col justify-center items-center">
+    <div className="mb-4 text-3xl font-bold">Population Council</div>
+    <div className=" mb-4">Here is my current experience</div>
+    <a href="https://www.popcouncil.org" target="_blank" rel="noopener noreferrer">
+      <button className="bg-button-bg border-2 border-button-border rounded-xl shadow-custom text-button-text cursor-pointer font-semibold text-lg py-2 px-4 hover:bg-button-hover active:shadow-custom-active active:transform active:translate-x-0.5 active:translate-y-0.5">
+        Our Mission
+      </button>
+              </a>
             </div>
           </div>
         </div>
@@ -62,10 +64,10 @@ export default function CurrentExperience() {
                 className="hover:opacity-75"
               />
             </a>
-            <a href="https://www.chess.com/" target="_blank" className="relative w-full h-full">
+            <a href="https://virtualhealthpartners.com/" target="_blank" className="relative w-full h-full">
               <Image
-                src="/images/chess2.png"
-                alt="Chess Logo"
+                src="/images/vhp.png"
+                alt="virtual health partners logo"
                 layout="fill"
                 objectFit="contain"
                 className="hover:opacity-75"
@@ -82,12 +84,17 @@ export default function CurrentExperience() {
             </a>
           </div>
           <div className="flex w-1/2 bg-yellow-200 p-4 justify-center items-center">
-            <div>
-              <div className="mb-4 text-3xl font-bold">Creative Freelancer</div>
-              <div>
-                I build websites for companies I align with. These are four of my favorites.
-                Feel free to explore. And if you get hungry, you can always order from MintyZ (if you're in Miami)!
-              </div>
+  <div className="flex flex-col justify-center items-center">
+    <div className="mb-4 text-3xl font-bold">Creative Freelancer</div>
+    <div className=" mb-4">
+      I build websites for companies I align with. These are four of my favorites.
+      Feel free to explore. And if you get hungry, you can always order from MintyZ (if you're in Miami)!
+    </div>
+    <a href="https://www.mintyz.com/online-ordering/minty-z-coconut-grove/menu" target="_blank" rel="noopener noreferrer">
+      <button className="bg-button-bg border-2 border-button-border rounded-xl shadow-custom text-button-text cursor-pointer font-semibold text-lg py-2 px-4 hover:bg-button-hover active:shadow-custom-active active:transform active:translate-x-0.5 active:translate-y-0.5">
+        Order food
+      </button>
+              </a>
             </div>
           </div>
         </div>
