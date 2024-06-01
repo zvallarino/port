@@ -1,6 +1,7 @@
 // app/components/Navbar.js
 "use client";
 
+import Image from 'next/image';
 import { useState } from 'react';
 import { FiMessageSquare } from 'react-icons/fi';
 
@@ -15,7 +16,16 @@ export default function Navbar() {
     <>
       <nav className="fixed w-full py-6 px-8 bg-blue-600 text-white flex justify-between items-center z-50">
         <div className="flex items-center text-2xl" style={{ fontSize: '1.5rem' }}>
-          <div className="mr-4">Logo</div>
+        <div className="mr-4">
+  <Image
+    src="/images/ghibli.png"
+    alt="MintyZ Logo 1"
+    layout="intrinsic"
+    width={60}
+    height={60}
+    className="hover:opacity-75 transform transition-transform duration-500 hover:rotate-180"
+  />
+</div>
           <div className="border-l-2 border-white h-6 mx-2"></div>
           <button 
       onClick={toggleFlip} 
