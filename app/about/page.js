@@ -1,16 +1,17 @@
-// app/page.js
-
-import Aboutme from "../about_sections/Aboutme";
-import Background from "../about_sections/Background";
-import Drawing from "../about_sections/Drawing";
-
+import Aboutme from "../sections_about/Aboutme";
+import Background from "../sections_about/Background";
+import Drawing from "../sections_about/Drawing";
+import TransitionOverlay from "../components/TransitionOverlay";
 
 export default function Page() {
   return (
-    <div>
-      <Aboutme />
-      <Background />
-      <Drawing />
+    <div className="relative">
+      <TransitionOverlay />
+      <div className="relative z-10">
+        <Aboutme />
+        <Background />
+        <Drawing />
+      </div>
     </div>
   );
 }

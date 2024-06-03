@@ -100,10 +100,15 @@ export default function CurrentExperience() {
         </div>
 
         <div className="mt-8">
-          <button className="bg-button-bg border-2 border-button-border rounded-xl shadow-custom text-button-text cursor-pointer font-semibold text-lg py-2 px-4 hover:bg-button-hover active:shadow-custom-active active:transform active:translate-x-0.5 active:translate-y-0.5">
+        <a 
+            href="https://docs.google.com/document/d/13uhL3HTJaAp3LHbVHs5XtiNwL-a00JWUAmne2qKXpCA/edit?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-button-bg border-2 border-button-border rounded-xl shadow-custom text-button-text cursor-pointer font-semibold text-lg py-2 px-4 hover:bg-button-hover active:shadow-custom-active active:transform active:translate-x-0.5 active:translate-y-0.5"
+          >
             Download CV
-          </button>
-        </div>
+          </a>
+          </div>
       </div>
       <div className="bg-yellow-300 h-full" style={{ width: "40%" }}>
         block 3

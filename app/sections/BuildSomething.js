@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function BuildSomething() {
   return (
     <section
@@ -21,9 +23,10 @@ export default function BuildSomething() {
           cutting-edge initiatives that make a difference.
           Let's create something amazing together!
         </div>
-        <button className="bg-button-bg border-2 border-button-border rounded-xl shadow-custom text-button-text cursor-pointer font-semibold text-lg py-2 px-4 hover:bg-button-hover active:shadow-custom-active active:transform active:translate-x-0.5 active:translate-y-0.5">
+        <Link href="/about" className="bg-button-bg border-2 border-button-border rounded-xl shadow-custom text-button-text cursor-pointer font-semibold text-lg py-2 px-4 hover:bg-button-hover active:shadow-custom-active active:transform active:translate-x-0.5 active:translate-y-0.5" passHref> 
         About me
-</button>
+   
+    </Link>
 
       </div>
       <div className="bg-yellow-300 h-full" style={{ width: "48.5%" }}>
